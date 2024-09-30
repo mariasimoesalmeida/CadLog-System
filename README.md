@@ -1,41 +1,72 @@
-* CadLog-System
+# Cad-log System
 
-# Projeto de Cadastro e Login
+O **Cad-log System** é uma aplicação desenvolvida em sala de aula para gerenciar o cadastro de usuários em diferentes perfis: Admin, Gestor e Colaborador. Com foco na segurança e eficiência, a aplicação permite que os usuários façam login, cadastrem novos usuários e gerenciem informações de forma prática e intuitiva.
 
-Este projeto consiste em um sistema simples de cadastro e login, com um design moderno e responsivo. A seguir estão descritas as funcionalidades e estruturas do projeto.
+---
 
-## Estrutura do Projeto
+### Funcionalidades ✨
 
-- `index.php`: Página principal que manipula o login e o cadastro de usuários.
-- `styles.css`: Arquivo de estilos CSS (ainda não foi fornecido, mas pode ser adicionado para estilizar mais componentes).
+- **Cadastro de Usuários**: Criação de novos usuários com informações como nome, email, senha e perfil. 📝
+- **Login de Usuários**: Autenticação segura com validação de credenciais. 🔐
+- **Perfis de Usuários**: Três tipos de perfis com diferentes permissões: Admin, Gestor e Colaborador. 👥
+- **Interface Intuitiva**: Tela de login e cadastro com design responsivo e acessível. 📱
 
-## Funcionalidades
+---
 
-1. **Página de Cadastro**:
-   - Permite que os usuários se cadastrem fornecendo nome, email, senha e perfil.
-   - Os dados são enviados via método POST para um servidor (o URL do servidor deve ser definido).
+### Estrutura de Arquivos Importantes 📂
 
-2. **Página de Login**:
-   - Permite que os usuários façam login com email e senha.
-   - Um link para a página de cadastro é fornecido.
+#### Descrição dos Arquivos
 
-## Tecnologias Utilizadas
+- **authcontroller.php**: Lógica de autenticação, gerenciando login e logout, validando credenciais e controlando acesso. 🔑
+- **usercontroller.php**: Gerencia operações relacionadas aos usuários, como criação, atualização e remoção, interagindo com o modelo User. ⚙️
+- **database.php**: Configura a conexão com o banco de dados, contendo credenciais e configurações para o MySQL. 🗄️
+- **user.php**: Modelo da entidade User, definindo propriedades e métodos para validação de dados e interações com o banco de dados. 🧑‍💻
+- **login.php**: Vista que exibe o formulário de login, permitindo a entrada de credenciais. 📄
+- **register.php**: Vista responsável pelo registro de novos usuários, com formulário de cadastro. ✍️
+- **index.php**: Ponto de entrada da aplicação, processando requisições e redirecionando usuários. 🚪
+- **routes.php**: Define rotas da aplicação, mapeando URLs para controladores e funções específicas. 🗺️
+- **database.sql**: Estrutura do banco de dados e instruções para criação de tabelas necessárias. 📊
 
-- HTML5
-- CSS3
-- PHP (para manipulação do backend, caso seja implementado)
+---
 
-## Como Usar
+Esse projeto visa facilitar a gestão de usuários de forma organizada e segura, garantindo uma experiência fluida para todos os perfis. 🌟
 
-1. Clone o repositório ou faça o download dos arquivos.
-2. Coloque os arquivos em um servidor web que suporte PHP.
-3. Acesse `index.php` em um navegador para visualizar a página de login.
-4. Use o formulário de cadastro para criar novos usuários.
+### Imagens
 
-## Contribuições
+![Imagem de Login](img/login.png)
+![Imagem de Registro](img/register.png)
 
-Sinta-se à vontade para contribuir com melhorias e sugestões. Crie um fork do projeto e faça um pull request!
+### 📄 Fontes Consultadas
 
-## Licença
+Para listar as fontes consultadas para as descrições da estrutura do Cad-log System, você pode considerar as seguintes referências:
 
-Este projeto está sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+1. **Documentação do PHP**: [PHP Manual](https://www.php.net/manual/pt_BR/index.php) - Para entender funções e práticas recomendadas no PHP.
+2. **Documentação do MySQL**: [MySQL Documentation](https://dev.mysql.com/doc/) - Recursos sobre configuração do banco de dados e comandos SQL.
+3. **MDN Web Docs**: [MDN Web Docs](https://developer.mozilla.org/pt-BR/) - Informações sobre desenvolvimento web e criação de interfaces.
+4. **Artigos e Tutoriais**: [W3Schools](https://www.w3schools.com/) - Tutoriais sobre PHP, HTML e SQL.
+5. **Livros**: "PHP & MySQL: Novice to Ninja" e "Learning PHP, MySQL & JavaScript" - Recursos úteis para o desenvolvimento web.
+6. **Comunidades de Desenvolvimento**: [Stack Overflow](https://stackoverflow.com/) - Discussões e soluções sobre problemas específicos relacionados a PHP e MySQL.
+
+---
+
+### ➡️ Como Executar
+
+1. Clone este repositório.
+2. Instale as dependências necessárias utilizando o comando `[inserir comando]`.
+3. Execute o projeto utilizando o comando `[inserir comando]`.
+
+### ✅ Contribuição
+
+Contribuições são bem-vindas! Se você quiser colaborar com este projeto, siga os passos abaixo:
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para a sua feature (`git checkout -b minha-feature`).
+3. Faça commit das suas alterações (`git commit -m 'Adicionando nova funcionalidade'`).
+4. Faça push para a branch criada (`git push origin minha-feature`).
+5. Abra um Pull Request.
+
+### ✒️ Autores
+
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/130574133?v=4" width=115><br><sub>Maria Eduarda Simões Almeida</sub>](https://github.com/mariasimoesalmeida) |
+|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=115><br><sub>Leonardo Rocha</sub>](https://github.com/LeonardoRochaMarista) |
+
