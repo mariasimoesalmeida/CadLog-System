@@ -68,5 +68,5 @@ Contribuições são bem-vindas! Se você quiser colaborar com este projeto, sig
 ### ✒️ Autores
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/166620642?s=400&u=12bf059621dc57e251cf9dcba327ea8de95aa965&v=4" width=115><br><sub>Maria Eduarda Simões Almeida</sub>](https://github.com/mariasimoesalmeida) |
-|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=115><br><sub>Leonardo Rocha</sub>](https://github.com/LeonardoRochaMarista) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=115><br><sub>Leonardo Rocha</sub>](https://github.com/LeonardoRochaMarista) |
 
