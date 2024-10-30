@@ -1,4 +1,4 @@
-# Cad-log System
+# Projeto - Cadastro e Login de usuários
 
 O **Cad-log System** é uma aplicação desenvolvida em sala de aula para gerenciar o cadastro de usuários em diferentes perfis: Admin, Gestor e Colaborador. Com foco na segurança e eficiência, a aplicação permite que os usuários façam login, cadastrem novos usuários e gerenciem informações de forma prática e intuitiva.
 
@@ -34,7 +34,8 @@ Esse projeto visa facilitar a gestão de usuários de forma organizada e segura,
 ### Imagens
 
 ![Imagem de Login](img/login.png)
-![Imagem de Registro](img/register.png)
+![Imagem de lista de usuários](img/lista%20de%20usuario.png)
+![Imagem de lista de usuários](img/tela%20de%20admin.png)
 
 ### 📄 Fontes Consultadas
 
@@ -49,24 +50,7 @@ Para listar as fontes consultadas para as descrições da estrutura do Cad-log S
 
 ---
 
-### ➡️ Como Executar
-
-1. Clone este repositório.
-2. Instale as dependências necessárias utilizando o comando `[inserir comando]`.
-3. Execute o projeto utilizando o comando `[inserir comando]`.
-
-### ✅ Contribuição
-
-Contribuições são bem-vindas! Se você quiser colaborar com este projeto, siga os passos abaixo:
-
-1. Faça um fork deste repositório.
-2. Crie uma branch para a sua feature (`git checkout -b minha-feature`).
-3. Faça commit das suas alterações (`git commit -m 'Adicionando nova funcionalidade'`).
-4. Faça push para a branch criada (`git push origin minha-feature`).
-5. Abra um Pull Request.
-
 ### ✒️ Autores
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/166620642?s=400&u=12bf059621dc57e251cf9dcba327ea8de95aa965&v=4" width=115><br><sub>Maria Eduarda Simões Almeida</sub>](https://github.com/mariasimoesalmeida) |
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=115><br><sub>Leonardo Rocha</sub>](https://github.com/LeonardoRochaMarista) |
-
+|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=115><br><sub>Leonardo Rocha</sub>](https://github.com/LeonardoRochaMarista) |
