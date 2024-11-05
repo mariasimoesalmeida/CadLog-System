@@ -40,7 +40,11 @@ class UserController
 
                 User::update($id, $data);
                 header('Location: index.php?action=List');
+            }else{
+                include 'views/edit_user.php';
             }
+        }else{
+            echo'Você não tem permissão para editar usuario';
         }
     }
 }
