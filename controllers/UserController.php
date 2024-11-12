@@ -29,7 +29,7 @@ class UserController
 
         // Permitir que adimin e gestor editem 
         if($_SESSION['perfil'] == 'admin' || $_SESSION['perfil'] == 'gestor'){
-            $user == User::find($id);
+            $user = User::find($id);
 
             if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 $data = [
@@ -46,6 +46,11 @@ class UserController
         }else{
             echo'Você não tem permissão para editar usuario';
         }
+    }
+
+    public function delete($id){
+        User::delete($id);
+        header('Location: index.php?action=list');
     }
 }
 
